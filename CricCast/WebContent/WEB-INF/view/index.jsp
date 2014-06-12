@@ -96,7 +96,7 @@
                         <div class="carousel-feature">
                           <a href="matches.html"><img class="carousel-image" alt="" src="images/match.png"></a>
                         </div>
-                      </div>
+                      </div> 
     				</div>
                 </div>
             </div>
