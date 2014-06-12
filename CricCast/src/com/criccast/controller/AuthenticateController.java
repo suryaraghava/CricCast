@@ -10,11 +10,13 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class AuthenticateController {
 	
-	@RequestMapping("/dashboard")
-	public ModelAndView displayDashBoard(){
-		Map<String, Object> model = new HashMap<String, Object>();
-		model.put("user", "admin");
-		return new ModelAndView("dashboard",model);
+	@RequestMapping("/login")
+	public ModelAndView login(){
+		return new ModelAndView("Login");
+	}
+	@RequestMapping("/logout")
+	public ModelAndView logout(){
+		return new ModelAndView("redirect:/home.html");
 	}
 
 }
