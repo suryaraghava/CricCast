@@ -10,10 +10,16 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class AuthenticateController {
 	
-	@RequestMapping("/login")
-	public ModelAndView login(){
+	@RequestMapping("/loginView")
+	public ModelAndView loginView(){
 		return new ModelAndView("Login");
 	}
+	
+	@RequestMapping("/login")
+	public ModelAndView login(){
+		return new ModelAndView("index");
+	}
+	
 	@RequestMapping("/logout")
 	public ModelAndView logout(){
 		return new ModelAndView("redirect:/home.html");
