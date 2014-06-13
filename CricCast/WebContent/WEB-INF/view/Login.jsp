@@ -13,30 +13,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"> 
 	<link rel="stylesheet" href="css/zerogrid.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen"> 
-	<script src="js/css3-mediaqueries.js"></script>
-    <script src="js/jquery-1.6.3.min.js" type="text/javascript"></script>
-    <script src="js/cufon-yui.js" type="text/javascript"></script>
-    <script src="js/cufon-replace.js" type="text/javascript"></script>
-    <script src="js/NewsGoth_400.font.js" type="text/javascript"></script>
-	<script src="js/NewsGoth_700.font.js" type="text/javascript"></script>
-    <script src="js/NewsGoth_Lt_BT_italic_400.font.js" type="text/javascript"></script>
-    <script src="js/Vegur_400.font.js" type="text/javascript"></script> 
-    <script src="js/FF-cash.js" type="text/javascript"></script>
-    <script src="js/jquery.featureCarousel.js" type="text/javascript"></script>     
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $("#carousel").featureCarousel({
-			autoPlay:7000,
-			trackerIndividual:false,
-			trackerSummation:false,
-			topPadding:50,
-			smallFeatureWidth:.9,
-			smallFeatureHeight:.9,
-			sidePadding:0,
-			smallFeatureOffset:0
-		});
-      });
-    </script>
+	
 	<!--[if lt IE 7]>
     <div style=' clear: both; text-align:center; position: relative;'>
         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -78,39 +55,50 @@
                                 <li><a href="score.html">Scores</a></li>
                                 <li><a href="match.html">Matches</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="loginView.html">Login</a></li>
+                                <li><a href="login.html">Login</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             </div>
-            <div class="row-bot">
-            	<div class="center-shadow">
-                	<div class="carousel-container">
-                      <div id="carousel">
-                        <div class="carousel-feature">
-                          <a href="team.html"><img class="carousel-image" alt="" src="images/team.png"></a>                          
-                        </div>
-                        <div class="carousel-feature">
-                          <a href="score.html"><img class="carousel-image" alt="" src="images/score.png"></a>
-                        </div>
-                        <div class="carousel-feature">
-                          <a href="matches.html"><img class="carousel-image" alt="" src="images/match.png"></a>
-                        </div>
-                      </div> 
-    				</div>
-                </div>
-            </div>
+            <div></div>
         </header>
         
         <!--==============================content================================-->
-        <section id="content"><div class="ic"></div>
-          <div class="block"></div>
+        <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com. December10, 2011!</div>
+            <div class="content-bg">
+                <div class="main">
+                  
+                            	<h3 style=" margin-right:20px;">Login</h3>
+                                <form id="contact-form2" method="post" enctype="multipart/form-data">                    
+                                  
+                                          <label><span  class="text-form">User Name:</span><input   name="p1" type="text" /></label>
+                                          <label><span  class="text-form">Password:</span><input   name="p2" type="text" /></label>                              
+                                       
+                                          
+                                                    <a href="login"><input type="button" value="Login"></a>
+                                                   
+                                                
+                                           
+                                                </div> 
+                                            </div>
+                                          </div>                            
+                                   			
+                                </form>
+								</div>
+                          
+                                           
+                        </div>
+                    </div>
+                </div>
+                <div class="block"></div>
+            </div>
         </section>
+  
     </div>
 	
 	<!--==============================footer=================================  <footer></footer>-->
   
-	<script type="text/javascript"> Cufon.now(); </script>
+	
 </body>
 </html>
