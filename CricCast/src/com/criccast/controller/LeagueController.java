@@ -12,4 +12,18 @@ public class LeagueController {
 		return new ModelAndView("CreateLeague");
 	}
 
+	@RequestMapping("/scheduleLeagueView")
+	public ModelAndView scheduleLeagueView(){
+		return new ModelAndView("ScheduleLeague");
+	}
+	
+	@RequestMapping("/createLeagueMatchView")
+	public ModelAndView createLeagueMatchView(){
+		return new ModelAndView("CreateLeagueMatch");
+	}
+	
+	@RequestMapping("/createLeague")
+	public ModelAndView createLeague(){
+		return new ModelAndView("redirect:/matches.html");
+	}
 }
