@@ -41,9 +41,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="active"><a href="home.html">Home</a></li>
+							<li ><a href="home.html">Home</a></li>
 							<li><a href="matches.html">Matches</a></li>
-							<li><a href="team.html">Team</a></li>
+							<li class="active"><a href="team.html">Team</a></li>
 							<li><a href="league.html">Leagues</a></li>
 						</ul>
 					</nav>
@@ -69,26 +69,46 @@
 					<div class="6u">
 						<section>
 							<header>
-								<h2>Scoring</h2>
+								<h2>Create Team</h2>
 							</header>
-							<form action="scoringView.html">
-							
-							
+							<form action="createLeague.html">
+							<p>Team name: <input type=text name=teamname></p>
+							<p>Player Info:</p>
 							<table><tr><td>
-							Who won the toss?
+							<input type=text>
 							</td>
 							<td>
-							<select>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>
+							<input type=text>
+							</td>
+							<td>
+							<input type=text>
+							</td>
+							</tr>
+							
+							<tr><td>
+							<input type=text>
+							</td>
+							<td>
+							<input type=text>
+							</td>
+							<td>
+							<input type=text>
+							</td>
+							</tr>
+							
+							<tr><td>
+							<input type=text>
+							</td>
+							<td>
+							<input type=text>
+							</td>
+							<td>
+							<input type=text>
 							</td>
 							</tr>
 							</table>
 							
-							<input type=submit class="button" value="Start Scoring">
+							<input type=submit class="button" value="Create">
 							</form>
 						</section>
 					</div>

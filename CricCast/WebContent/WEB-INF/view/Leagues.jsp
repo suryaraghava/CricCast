@@ -19,11 +19,11 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
-		
+		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
-		
+		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
@@ -41,10 +41,11 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="active"><a href="home.html">Home</a></li>
+							<li><a href="home.html">Home</a></li>
 							<li><a href="matches.html">Matches</a></li>
 							<li><a href="team.html">Team</a></li>
-							<li><a href="league.html">Leagues</a></li>
+							<li class="active"><a href="league.html">Leagues</a></li>
+							
 						</ul>
 					</nav>
 
@@ -60,49 +61,67 @@
 		<div id="page">
 
 			<!-- Extra -->
-			
+			<div id="marketing" class="container">
+			<header>
+								<h1>On Going Matches</h1><a href="createLeagueView.html" class=button>Create League</a>
+							</header>
+				<div class="row">
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Hyderabad VS Mumbai</h2>
+							</header>
+							<p class="subtitle">Match between hyderabad and mumbai</p>
+							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+							<a href="showMatchInformation.html" class="button">More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Hyderabad VS Mumbai</h2>
+							</header>
+							<p class="subtitle">Match between hyderabad and mumbai</p>
+							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+							<a href="#" class="button">More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Hyderabad VS Mumbai</h2>
+							</header>
+							<p class="subtitle">Match between hyderabad and mumbai</p>
+							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+							<a href="#" class="button">More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Hyderabad VS Mumbai</h2>
+							</header>
+							<p class="subtitle">Match between hyderabad and mumbai</p>
+							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+							<a href="#" class="button">More</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Hyderabad VS Mumbai</h2>
+							</header>
+							<p class="subtitle">Match between hyderabad and mumbai</p>
+							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
+							<a href="#" class="button">More</a>
+						</section>
+					</div>
+				</div>
+			</div>
 			<!-- /Extra -->
 				
 			<!-- Main -->
-			<div id="main" class="container">
-				<div class="row">
-					<div class="6u">
-						<section>
-							<header>
-								<h2>Scoring</h2>
-							</header>
-							<form action="scoringView.html">
-							
-							
-							<table><tr><td>
-							Who won the toss?
-							</td>
-							<td>
-							<select>
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
-</select>
-							</td>
-							</tr>
-							</table>
-							
-							<input type=submit class="button" value="Start Scoring">
-							</form>
-						</section>
-					</div>
-					
-				</div>
-			</div>
-			<!-- Main -->
-
-		</div>
-	<!-- /Main -->
-
-	<!-- Featured -->
-		
-
+			
 
 	</body>
 </html>

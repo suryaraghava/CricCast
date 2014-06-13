@@ -7,6 +7,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class LeagueController {
 	
+	@RequestMapping("/league")
+	public ModelAndView league(){
+		return new ModelAndView("Leagues");
+	}
+	
 	@RequestMapping("/createLeagueView")
 	public ModelAndView createLeagueView(){
 		return new ModelAndView("CreateLeague");

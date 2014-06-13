@@ -7,9 +7,16 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class TeamController {
 	@RequestMapping("team")
-	public ModelAndView showClassData(){
+	public ModelAndView team(){
 		/*Map<String, Object> model = new HashMap<String, Object>();
 		model.put("user", "admin");*/
 		return new ModelAndView("Team");
+	}
+	
+	@RequestMapping("createTeamView")
+	public ModelAndView createTeamView(){
+		/*Map<String, Object> model = new HashMap<String, Object>();
+		model.put("user", "admin");*/
+		return new ModelAndView("CreateTeam");
 	}
 }

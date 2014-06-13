@@ -41,10 +41,10 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="active"><a href="home.html">Home</a></li>
-							<li><a href="matches.html">Matches</a></li>
+							<li ><a href="home.html">Home</a></li>
+							<li class="active"><a href="matches.html">Matches</a></li>
 							<li><a href="team.html">Team</a></li>
-							<li><a href="score.html">Scores</a></li>
+							<li><a href="league.html">Leagues</a></li>
 						</ul>
 					</nav>
 
