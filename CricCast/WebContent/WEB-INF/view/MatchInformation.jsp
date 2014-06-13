@@ -60,67 +60,73 @@
 		<div id="page">
 
 			<!-- Extra -->
-			<div id="marketing" class="container">
-			<header>
-								<h1>On Going Matches</h1><a href="createMatchView.html" class=button>Create Match</a>
-							</header>
-				<div class="row">
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="showMatchInformation.html" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-				</div>
-			</div>
+			
 			<!-- /Extra -->
 				
 			<!-- Main -->
-			
+			<div id="main" class="container">
+				<div class="row">
+					<div class="6u">
+						<section>
+							<header>
+								<h2>Hyderabad VS Mumbai</h2>
+								<span class="byline">Mumbai VS Hyderabad</span>
+							</header>
+							<p>Match between 2 teams</p>
+							<p>Date</p>
+							<p> Team A</p>
+							<p> Team B</p>
+							<a href="score.html" class="button">Start</a>  <a href="#" class="button">reschedule</a>  <a href="#" class="button">delete</a>
+						</section>
+					</div>
+					
+				</div>
+			</div>
+			<!-- Main -->
+
+		</div>
+	<!-- /Main -->
+
+	<!-- Featured -->
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<section class="4u">
+						<div class="box">
+							<a href="#" class="image left"><img src="images/pics04.jpg" alt=""></a>
+							<h3>Hyderabad VS Mumbai</h3>
+							<p>testfjaslfjkalsasdfjla</p>
+							<p>fakls</p>
+							<a href="#" class="button">More</a>
+						</div>
+					</section>
+					<section class="4u">
+						<div class="box">
+							<a href="#" class="image left"><img src="images/pics04.jpg" alt=""></a>
+							<h3>Hyderabad VS Mumbai</h3>
+							<p>testfjaslfjkalsasdfjla</p>
+							<p>fakls</p>
+							<a href="#" class="button">More</a>
+						</div>
+					</section>
+					<section class="4u">
+						<div class="box">
+							<a href="#" class="image left"><img src="images/pics04.jpg" alt=""></a>
+							<h3>Hyderabad VS Mumbai</h3>
+							<p>testfjaslfjkalsasdfjla</p>
+							<p>fakls</p>
+							<a href="#" class="button">More</a>
+						</div>
+					</section>
+				</div>
+				<div class="divider"></div>
+			</div>
+		</div>
+	<!-- /Featured -->
+
+	<!-- Footer -->
+		
+
 
 	</body>
 </html>

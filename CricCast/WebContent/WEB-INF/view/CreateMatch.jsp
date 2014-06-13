@@ -19,11 +19,11 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
 		<script src="js/init.js"></script>
-		<noscript>
+		
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
+		
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
@@ -60,67 +60,57 @@
 		<div id="page">
 
 			<!-- Extra -->
-			<div id="marketing" class="container">
-			<header>
-								<h1>On Going Matches</h1><a href="createMatchView.html" class=button>Create Match</a>
-							</header>
-				<div class="row">
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="showMatchInformation.html" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-					<div class="3u">
-						<section>
-							<header>
-								<h2>Hyderabad VS Mumbai</h2>
-							</header>
-							<p class="subtitle">Match between hyderabad and mumbai</p>
-							<p><a href="#"><img src="images/pics13.jpg" alt=""></a></p>
-							<a href="#" class="button">More</a>
-						</section>
-					</div>
-				</div>
-			</div>
+			
 			<!-- /Extra -->
 				
 			<!-- Main -->
-			
+			<div id="main" class="container">
+				<div class="row">
+					<div class="6u">
+						<section>
+							<header>
+								<h2>Create Match</h2>
+							</header>
+							<form action="createMatch.html">
+							<p>Match Name: <input type=text></p>
+							GetDate:
+							<table><tr><td>
+							<input type=date>
+							</td>
+							<td>
+							<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+							</td>
+							<td>
+							<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+							</td>
+							</tr>
+							</table>
+							
+							<input type=submit class="button" value="Create">
+							</form>
+						</section>
+					</div>
+					
+				</div>
+			</div>
+			<!-- Main -->
+
+		</div>
+	<!-- /Main -->
+
+	<!-- Featured -->
+		
+
 
 	</body>
 </html>

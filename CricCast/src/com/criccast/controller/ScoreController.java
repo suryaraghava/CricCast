@@ -8,8 +8,15 @@ import org.springframework.web.servlet.ModelAndView;
 public class ScoreController {
 
 	@RequestMapping("score")
-	public ModelAndView showStudentFilter()
+	public ModelAndView score()
 	{
 		return new ModelAndView("Score");
 	}
+	
+	@RequestMapping("scoringView")
+	public ModelAndView scoringView()
+	{
+		return new ModelAndView("ScorePage");
+	}
+	
 }

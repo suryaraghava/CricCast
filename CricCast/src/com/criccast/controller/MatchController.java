@@ -8,7 +8,22 @@ import org.springframework.web.servlet.ModelAndView;
 public class MatchController {
 
 	@RequestMapping("matches")
-	public ModelAndView showStudentInformation(){
+	public ModelAndView showMatches(){
 		return new ModelAndView("Matches");
+	}
+	
+	@RequestMapping("createMatchView")
+	public ModelAndView createMatchView(){
+		return new ModelAndView("CreateMatch");
+	}
+	
+	@RequestMapping("createMatch")
+	public ModelAndView createMatch(){
+		return new ModelAndView("redirect:/matches.html");
+	}
+	
+	@RequestMapping("showMatchInformation")
+	public ModelAndView showMatchInformation(){
+		return new ModelAndView("MatchInformation");
 	}
 }
